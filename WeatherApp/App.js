@@ -14,7 +14,7 @@ export default class extends React.Component {
   getWeather = async (latitude, longitude) => {
     const {
       data: {
-        main: {temp},
+        main: { temp },
         weather
       } 
     } = await axios.get(
@@ -24,19 +24,15 @@ export default class extends React.Component {
       isLoading: false, 
       condition: weather[0].main,
       temp
-    })
+    });
   };
   getLocation = async () => {
     try {
       await Location.requestForegroundPermissionsAsync();
-      const {
-        coords: { latitude, longitude },
-      } = await Location.getCurrentPositionAsync();
+      const {coords: { latitude, longitude }} = await Location.getLastKnownPositionAsync();
       this.getWeather(latitude, longitude);
       this.setState({ isLoading: false });
     } catch (error) {
-      console.log(error);
-      Alert.alert(error);
       Alert.alert("Can't find you.", 'So sad');
     }
   };
@@ -44,7 +40,7 @@ export default class extends React.Component {
     this.getLocation();
   }
   render() {
-    const { isLoading, condition, temp } = this.state;
-    return isLoading ? <Loading /> : <Weather condition={condition} temp={Math.round(temp)} />;
+    const { isLoading, condition, temp} = this.state;
+    return isLoading ? <Loading /> : <Weather temp={Math.round(temp)} condition={condition} />;
   }
 }

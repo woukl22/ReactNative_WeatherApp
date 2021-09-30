@@ -73,13 +73,17 @@ const weatherOptions = {
 
 export default function Weather({temp, condition}) {
   return (
-    <LinearGradient colors={weatherOptions[condition].gradient} style={styles.container}>
+    <LinearGradient 
+      colors={weatherOptions[condition].gradient} 
+      style={styles.container}
+    >
       <StatusBar barStyle="light-content" />
       <View style={styles.halfContainer}>
         <MaterialCommunityIcons
-        size={96}
-        name={weatherOptions["Haze"].iconName}
-        color="white" />
+          size={96}
+          name={weatherOptions[condition].iconName}
+          color="white" 
+        />
         <Text style={styles.temp}>{temp}˚</Text>
       </View>
       <View style={styles.halfContainer}>
@@ -126,5 +130,3 @@ const styles = StyleSheet.create({
     alignItems: "center"
   }
 })
-
-// Error: "Location provider is unavailable. Make sure that location services are enabled." in /data/user/0/host.exp.exponent/files/.expo-internal/1f7e9c537baf26a306098eece9b8f9b9:29:1112 << /data/user/0/host.exp.exponent/files/.expo-internal/1f7e9c537baf26a306098eece9b8f9b9:414:566 <<  << l
