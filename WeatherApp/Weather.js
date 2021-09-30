@@ -8,98 +8,98 @@ const weatherOptions = {
   Haze: {
     iconName: "weather-hail",
     gradient: ["#3D7EAA", "#FFE47A"],
-    title: "",
-    subtitle: ""
+    title: "Haze",
+    subtitle: "안개가 껴요"
   },
   Thunderstorm: {
     iconName: "weather-lightning-rainy",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#FFE000", "#799F0C"],
+    title: "Thunderstorm",
+    subtitle: "천둥 번개를 동반한 폭풍이 와요"
   },
   Drizzle: {
     iconName: "weather-hail",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#2ebf91", "#8360c3"],
+    title: "Drizzle",
+    subtitle: "이슬비가 내려요"
   },
   Rain: {
     iconName: "weather-rainy",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#000046", "#1CB5E0"],
+    title: "Rain",
+    subtitle: "비가 내려요"
   },
   Snow: {
     iconName: "weather-snowy",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#E4E5E6", "#00416A"],
+    title: "Snow",
+    subtitle: "눈이 내려요"
   },
   Atmosphere: {
     iconName: "weather-fog",
-    gradient: ["", ""],
-    title: "",
+    gradient: ["#E8CBC0", "#636FA4"],
+    title: "Atmosphere",
     subtitle: ""
   },
   Clear: {
     iconName: "weather-sunny",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#2980B9", "#6DD5FA", "#FFFFFF"],
+    title: "Clear",
+    subtitle: "맑은 날이에요"
   },
   Clouds: {
     iconName: "weather-cloudy",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#6D6027", "#D3CBB8"],
+    title: "Clouds",
+    subtitle: "흐린 날이에요"
   },
   Mist: {
     iconName: "weather-fog",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#bdc3c7", "#2c3e50"],
+    title: "Mist",
+    subtitle: "안개가 껴요"
   },
   Smoke: {
     iconName: "weather-cloudy-alert",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#ffd89b", "#19547b"],
+    title: "Smoke",
+    subtitle: "연기가 나요"
   },
   Dust: {
     iconName: "weather-cloudy-alert",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#3b8d99", "#6b6b83", "#aa4b6b"],
+    title: "Dust",
+    subtitle: "먼지가 많아요"
   },
   Fog: {
     iconName: "weather-fog",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#1f4037", "#99f2c8"],
+    title: "Fog",
+    subtitle: "안개가 껴요"
   },
   Sand: {
     iconName: "weather-fog",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#ffd452", "#544a7d"],
+    title: "Sand",
+    subtitle: "황사에요"
   },
   Ash: {
     iconName: "weather-fog",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#659999", "#f4791f"],
+    title: "Ash",
+    subtitle: "재가 날려요"
   },
   Squall: {
     iconName: "weather-pouring",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#1565C0", "#b92b27"],
+    title: "Squall",
+    subtitle: "스콜이 와요"
   },
   Tornado: {
     iconName: "weather-tornado",
-    gradient: ["", ""],
-    title: "",
-    subtitle: ""
+    gradient: ["#3E5151", "#DECBA4"],
+    title: "Tornado",
+    subtitle: "토네이도가 와요"
   }
 }
 
@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     color: "white"
   },
   textContainer: {
-    paddingHorizontal: 20,
-    alignItems: "flex-start"
+    justifyContent: "flex-start",
+    paddingHorizontal: 20
   }
 })
