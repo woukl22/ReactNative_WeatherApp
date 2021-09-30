@@ -10,63 +10,63 @@ const weatherOptions = {
     gradient: ["#3D7EAA", "#FFE47A"]
   },
   Thunderstorm: {
-    iconName: "",
+    iconName: "weather-lightning-rainy",
     gradient: ["", ""]
   },
   Drizzle: {
-    iconName: "",
+    iconName: "weather-hail",
     gradient: ["", ""]
   },
   Rain: {
-    iconName: "",
+    iconName: "weather-rainy",
     gradient: ["", ""]
   },
   Snow: {
-    iconName: "",
+    iconName: "weather-snowy",
     gradient: ["", ""]
   },
   Atmosphere: {
-    iconName: "",
+    iconName: "weather-fog",
     gradient: ["", ""]
   },
   Clear: {
-    iconName: "",
+    iconName: "weather-sunny",
     gradient: ["", ""]
   },
   Clouds: {
-    iconName: "",
+    iconName: "weather-cloudy",
     gradient: ["", ""]
   },
   Mist: {
-    iconName: "",
+    iconName: "weather-fog",
     gradient: ["", ""]
   },
   Smoke: {
-    iconName: "",
+    iconName: "weather-cloudy-alert",
     gradient: ["", ""]
   },
   Dust: {
-    iconName: "",
+    iconName: "weather-cloudy-alert",
     gradient: ["", ""]
   },
   Fog: {
-    iconName: "",
+    iconName: "weather-fog",
     gradient: ["", ""]
   },
   Sand: {
-    iconName: "",
+    iconName: "weather-fog",
     gradient: ["", ""]
   },
   Ash: {
-    iconName: "",
+    iconName: "weather-fog",
     gradient: ["", ""]
   },
   Squall: {
-    iconName: "",
+    iconName: "weather-pouring",
     gradient: ["", ""]
   },
   Tornado: {
-    iconName: "",
+    iconName: "weather-tornado",
     gradient: ["", ""]
   }
 }
