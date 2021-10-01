@@ -5,15 +5,15 @@ Studying React Native with make Weather Application from Nomad coder.
 
 2021.09.28 ~ 2021.10.01
 
-## 
+## Description
 I'm start learning react native in order to make application for club activity.<br>
-Learning how to make application with react native by [Nomad coders](nomadcoders.co).<br>
+Learning how to make application with react native by [Nomad coders](https://nomadcoders.co).<br>
 I found some errors when I make this weather app.<br>
 I want to log these errors. because there is not much information about what I found.
 
 <br>
 
-I use [snack expo](snack.expo.dev) and my phone(SM-G930).
+I use [snack expo](https://snack.expo.dev) and my phone(SM-G930).
 
 ## Errors
 #### 1. This error is appear when use ```weatherOptions[condition].gradient```, ```weatherOptions[condition].iconName```, etc.<br>
